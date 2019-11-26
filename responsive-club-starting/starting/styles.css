@@ -1,0 +1,91 @@
+body {
+    font-family: New Timews Roman, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: blueviolet;
+}
+
+nav{
+color: darkorange;
+padding-top: 1 rem;
+} 
+
+nav p{
+    left: 25 rem;
+}
+
+
+li{
+    display: inline-block;
+    color: cyan;
+    padding: 0.5 rem 1.5 rem;
+    text-align: center;
+}
+
+.intro{
+    background-image: url(./img/photo-1561506694-f97e677ff3d3.jpg);
+    background-position: center;
+    height: 300px;
+    width: auto;
+    text-align: center;
+}
+.intro img{
+    margin: auto;
+    margin-top: 5 rem;
+    display: block;
+  
+
+}
+.intro h1 {
+ 
+ background-color: rgba(138, 60, 60, 0.5);
+ color: darkred;
+ font-family: Verdana, sans-serif;
+font-size: 15 px;
+padding: 4 px;
+}
+
+.holidays
+.photo
+.test
+.summary{
+    margin: 4 em auto;
+}
+.summary p {
+    color: black;
+}
+.photo img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 250 px ;
+    width: 30%;
+    display: inline-block;
+}
+
+}
+.test {
+   text-align: center;
+    font-size: 50 px;
+    color: black;  
+}
+a{
+    color: blue;
+}
+.summary h2{
+    text-align: center;
+}
+.list{
+    text-align: center;
+}
+.list1{
+    text-align: right;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+
+.holidays {
+  text-align: center;
+}
+
+
