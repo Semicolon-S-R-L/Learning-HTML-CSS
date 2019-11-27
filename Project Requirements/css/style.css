@@ -1,0 +1,170 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: black;
+  }
+  
+  nav {
+    padding-top: 1rem;
+    background-color:  rgb(84, 85, 85);
+    color: red;
+    font-weight: bold;
+  }
+  
+  nav p {
+    left: 25rem;
+  }
+  
+  .intro {
+    height: 19rem;
+    padding-top: 1rem;
+    background-image: url("../css/img/photo-1561506694-f97e677ff3d3.jpg");
+    background-position: center;
+    background-repeat: none;
+  }
+  
+  .intro img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  .intro h1 {
+    color: red;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    color: red;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+  }
+  
+  .summary,
+  .test,
+  .photo,
+  .holidays {
+    margin: 4em auto;
+  }
+  
+  .summary {
+    padding: 0 1rem;
+  }
+  
+  .summary p {
+    color: white;
+  }
+  
+  .test {
+    background-color: rgb(84, 85, 85);
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: white;
+  }
+
+  
+  .test h1 {
+    font-size: 2.5rem;
+    color: red;
+  }
+  
+  .summary h2 {
+    color: red;
+  }
+  
+  .photo img {
+    width: 30%;
+    margin: 1.5%;
+  }
+  
+  .holidays {
+    margin-bottom: 2rem;
+  }
+  
+  .holidays img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .holidays h1 {
+    color: red;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 1048px) {
+    .photo img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .intro h1 {
+      margin-top: 2rem;
+    }
+  
+    .intro {
+      max-height: 200px;
+    }
+  
+    .photo img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .test h1 {
+      font-size: 2rem;
+    }
+  
+    .photo img {
+      width: 100%;
+    }
+  }
+
+
+  footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+  }
+  span.social{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  .gift{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
